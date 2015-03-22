@@ -40,7 +40,7 @@ public class WebOpen extends FragmentActivity {
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.webopen);
-    final ProgressBar pb = (ProgressBar) findViewById(R.id.progress);
+    final ProgressBar pb = (ProgressBar) findViewById(R.id.pb);
     final TextView title = (TextView) findViewById(R.id.title);
 
     // Create Item from Intent.
