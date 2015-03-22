@@ -108,5 +108,11 @@
         <item>オレンジ</item>
         <item>ライトブルー</item>
     </string-array>
+    <string-array name="listcolorvalue">
+        <item>#FFFFFF</item>
+        <item>#000000</item>
+        <item>#FF6600</item>
+        <item>#b0c4de</item>
+    </string-array>
 
 </resources>

@@ -3,6 +3,8 @@
 
     <string name="app_name">gojappe mod</string>
     <string name="app_hashtag"> #gojappenews</string>
+    <string name="mymarket">https://market.android.com/search?q=3kaido</string>
+    <string name="myhelpurl">http://sites.google.com/site/3kaido/degosuke/help</string>
     <string name="recommend">gojappe お気軽ニュースリーダー
 		https://market.android.com/details?id=com.daikyo.rssreader
 		#gojappenews #androidjp</string>
