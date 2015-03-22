@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/readlater"
+        android:title="あとで読む"/>
+    <item
+        android:id="@+id/share"
+        android:title="友達に教える"/>
+    <item
+        android:id="@+id/openintent"
+        android:title="開く"/>
+
+</menu>

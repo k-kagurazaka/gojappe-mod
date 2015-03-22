@@ -1,0 +1,56 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com" >
+
+    <PreferenceCategory android:title="@string/pflistcolor" >
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="80"
+            android:key="listback"
+            android:max="100"
+            android:summary="@string/listbacksum"
+            android:title="@string/listback"
+            robobunny:min="1"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight="%" />
+
+        <ListPreference
+            android:defaultValue="#FFFFFF"
+            android:dialogTitle="@string/listcolor"
+            android:entries="@array/listcolorentries"
+            android:entryValues="@array/listcolorvalue"
+            android:key="listcolor"
+            android:summary="@string/listcolorsum"
+            android:title="@string/listcolor" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pfwebv" >
+        <ListPreference
+            android:defaultValue="16"
+            android:dialogTitle="@string/fontset"
+            android:entries="@array/fontentry"
+            android:entryValues="@array/fontvalue"
+            android:key="font"
+            android:summary="@string/fontsetsum"
+            android:title="@string/fontset" />
+        <!--
+             THIS DID NOT WORK ANY.... <ListPreference android:key="ua" android:title="@string/uaset" 
+			android:summary="@string/uasetsum" android:entries="@array/uaentry" android:entryValues="@array/uavalue" 
+			android:dialogTitle="@string/uaset"/>
+        -->
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="javascript"
+            android:summary="@string/jssetsum"
+            android:title="@string/jsset" />
+        <CheckBoxPreference
+            android:key="volume"
+            android:summaryOff="@string/vsetoff"
+            android:summaryOn="@string/vseton"
+            android:title="@string/volumeset" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="loadimage"
+            android:summaryOff="@string/loadimageoff"
+            android:summaryOn="@string/loadimageon"
+            android:title="@string/loadimage" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
