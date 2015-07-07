@@ -61,9 +61,6 @@
             <outline text="Record China - 海外 - Yahoo!ニュース"
                 title="Record China - 海外 - Yahoo!ニュース" type="rss"
                 xmlUrl="http://headlines.yahoo.co.jp/rss/rcdc-c_int.xml" htmlUrl="http://news.search.yahoo.co.jp/search?p=Record%20China&amp;vaop=a&amp;to=2&amp;st=n&amp;c_n=c_int"/>
-            <outline text="TweetBuzz - 注目エントリー"
-                title="TweetBuzz - 注目エントリー" type="rss"
-                xmlUrl="http://tweetbuzz.jp/feed/rss/hotentry/" htmlUrl="http://tweetbuzz.jp"/>
             <outline text="web R25：サイトTOP" title="web R25：サイトTOP"
                 type="rss" xmlUrl="http://r25.yahoo.co.jp/rss/" htmlUrl="http://r25.yahoo.co.jp/"/>
             <outline text="Yahoo!ニュース・トピックス - トップ"
@@ -100,7 +97,7 @@
             <outline text="はちま起稿" title="はちま起稿" type="rss"
                 xmlUrl="http://blog.esuteru.com/index.rdf" htmlUrl="http://blog.esuteru.com/"/>
             <outline text="やらおん！" title="やらおん！" type="rss"
-                xmlUrl="http://feeds.fc2.com/fc2/xml?host=yaraon.blog109" htmlUrl="http://yaraon.blog109.fc2.com/"/>
+                xmlUrl="http://yaraon-blog.com/feed" htmlUrl="http://yaraon-blog.com/"/>
             <outline text="オタク.com" title="オタク.com" type="rss"
                 xmlUrl="http://otakomu.jp/feed/rdf" htmlUrl="http://otakomu.jp/"/>
             <outline text="オレ的ゲーム速報＠刃" title="オレ的ゲーム速報＠刃" type="rss"
