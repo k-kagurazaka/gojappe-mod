@@ -134,7 +134,10 @@ public class RssParserTask extends AsyncTask<Void, String, Void> {
                   currentItem.setDate(parser.nextText());
                   break;
                 case link:
-                  currentItem.setURL(parser.nextText());
+                  // only parse <link>...</link>
+                  if (parser.getPrefix() == null) {
+                    currentItem.setURL(parser.nextText());
+                  }
                   break;
                 case author:
                   if (currentItem.getURL().toString()
