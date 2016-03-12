@@ -5,15 +5,8 @@
     </head>
     <body>
         <outline title="android" text="android">
-            <outline text="android  アプリ @Google News"
-                title="android  アプリ @Google News" type="rss"
-                xmlUrl="http://news.google.com/news?q=android++%E3%82%A2%E3%83%97%E3%83%AA&amp;hl=en&amp;bav=on.2,or.r_gc.r_pw.&amp;um=1&amp;ie=UTF-8&amp;output=rss" htmlUrl="http://news.google.com/news?pz=1&amp;ned=us&amp;hl=en&amp;q=android++%E3%82%A2%E3%83%97%E3%83%AA"/>
             <outline text="androider.jp" title="androider.jp" type="rss"
                 xmlUrl="http://androider.jp/rss/home/" htmlUrl="http://androider.jp/"/>
-            <outline
-                text="Android（アンドロイド）アプリ情報と面白ニュース配信【EXドロイド（エックスドロイド）】"
-                title="Android（アンドロイド）アプリ情報と面白ニュース配信【EXドロイド（エックスドロイド）】"
-                type="rss" xmlUrl="http://exdroid.jp/feed/" htmlUrl="http://exdroid.jp"/>
             <outline text="andronavi (アンドロナビ)"
                 title="andronavi (アンドロナビ)" type="rss"
                 xmlUrl="http://andronavi.com/feed" htmlUrl="http://andronavi.com"/>
@@ -37,7 +30,7 @@
         <outline title="news" text="news">
             <outline text="AFPBB News - トピックス -"
                 title="AFPBB News - トピックス -" type="rss"
-                xmlUrl="http://feeds.afpbb.com/afpbb_topics" htmlUrl="http://www.afpbb.com/"/>
+                xmlUrl="http://feeds.afpbb.com/rss/afpbb/afpbb_topics" htmlUrl="http://www.afpbb.com/"/>
             <outline text="CNN.co.jp" title="CNN.co.jp" type="rss"
                 xmlUrl="http://feeds.cnn.co.jp/cnn/rss" htmlUrl="http://www.cnn.co.jp"/>
             <outline text="Excite世界びっくりニュース" title="Excite世界びっくりニュース"
@@ -58,9 +51,6 @@
             <outline text="MONEYzine - 経済 - Yahoo!ニュース"
                 title="MONEYzine - 経済 - Yahoo!ニュース" type="rss"
                 xmlUrl="http://headlines.yahoo.co.jp/rss/sh_mon-bus.xml" htmlUrl="http://news.search.yahoo.co.jp/search?p=MONEYzine&amp;vaop=a&amp;to=2&amp;st=n&amp;c_n=bus"/>
-            <outline text="Record China - 海外 - Yahoo!ニュース"
-                title="Record China - 海外 - Yahoo!ニュース" type="rss"
-                xmlUrl="http://headlines.yahoo.co.jp/rss/rcdc-c_int.xml" htmlUrl="http://news.search.yahoo.co.jp/search?p=Record%20China&amp;vaop=a&amp;to=2&amp;st=n&amp;c_n=c_int"/>
             <outline text="web R25：サイトTOP" title="web R25：サイトTOP"
                 type="rss" xmlUrl="http://r25.yahoo.co.jp/rss/" htmlUrl="http://r25.yahoo.co.jp/"/>
             <outline text="Yahoo!ニュース・トピックス - トップ"
@@ -68,8 +58,6 @@
                 xmlUrl="http://dailynews.yahoo.co.jp/fc/rss.xml" htmlUrl="http://dailynews.yahoo.co.jp/fc/"/>
             <outline text="らばQ" title="らばQ" type="rss"
                 xmlUrl="http://labaq.com/index.rdf" htmlUrl="http://labaq.com/"/>
-            <outline text="アゴラ" title="アゴラ" type="rss"
-                xmlUrl="http://agora-web.jp/index.rdf" htmlUrl="http://agora-web.jp/"/>
             <outline text="ウォール・ストリート・ジャーナル - 国際 - Yahoo!ニュース"
                 title="ウォール・ストリート・ジャーナル - 国際 - Yahoo!ニュース" type="rss"
                 xmlUrl="http://headlines.yahoo.co.jp/rss/wsj-c_int.xml" htmlUrl="http://news.search.yahoo.co.jp/search?p=%A5%A6%A5%A9%A1%BC%A5%EB%A1%A6%A5%B9%A5%C8%A5%EA%A1%BC%A5%C8%A1%A6%A5%B8%A5%E3%A1%BC%A5%CA%A5%EB&amp;vaop=a&amp;to=2&amp;st=n&amp;c_n=c_int"/>
@@ -77,7 +65,7 @@
                 title="エコノミックニュース - 経済 - Yahoo!ニュース" type="rss"
                 xmlUrl="http://headlines.yahoo.co.jp/rss/economic-bus.xml" htmlUrl="http://news.search.yahoo.co.jp/search?p=%A5%A8%A5%B3%A5%CE%A5%DF%A5%C3%A5%AF%A5%CB%A5%E5%A1%BC%A5%B9&amp;vaop=a&amp;to=2&amp;st=n&amp;c_n=bus"/>
             <outline text="ガジェット通信" title="ガジェット通信" type="rss"
-                xmlUrl="http://getnews.jp/feed" htmlUrl="http://getnews.jp/"/>
+                xmlUrl="http://getnews.jp/feed/ext/orig" htmlUrl="http://getnews.jp/"/>
             <outline text="ダイヤモンド・オンライン - 新着記事"
                 title="ダイヤモンド・オンライン - 新着記事" type="rss"
                 xmlUrl="http://feed.ismedia.jp/rss/diamond/feed.xml" htmlUrl="http://diamond.jp/category/dol"/>
@@ -146,15 +134,12 @@
                 title="スポーツナビ - スポーツ - Yahoo!ニュース" type="rss"
                 xmlUrl="http://headlines.yahoo.co.jp/rss/spnavi-c_spo.xml" htmlUrl="http://news.search.yahoo.co.jp/search?p=%A5%B9%A5%DD%A1%BC%A5%C4%A5%CA%A5%D3&amp;vaop=a&amp;to=2&amp;st=n&amp;c_n=c_spo"/>
             <outline text="ドメサカ板まとめブログ" title="ドメサカ板まとめブログ" type="rss"
-                xmlUrl="http://blog.livedoor.jp/domesoccer/index.rdf" htmlUrl="http://blog.livedoor.jp/domesoccer/"/>
+                xmlUrl="http://blog.domesoccer.jp/feed" htmlUrl="http://blog.domesoccer.jp/"/>
             <outline text="フットボールチャンネル - 雑誌 - Yahoo!ニュース"
                 title="フットボールチャンネル - 雑誌 - Yahoo!ニュース" type="rss"
                 xmlUrl="http://zasshi.news.yahoo.co.jp/rss/footballc-all.xml" htmlUrl="http://zasshi.news.yahoo.co.jp/list/?m=footballc"/>
             <outline text="芸スポまとめblog" title="芸スポまとめblog" type="rss"
                 xmlUrl="http://blog.livedoor.jp/domesaka/index.rdf" htmlUrl="http://blog.livedoor.jp/domesaka/"/>
-            <outline text="２ｃｈスポーツニュースナビ" title="２ｃｈスポーツニュースナビ"
-                type="rss"
-                xmlUrl="http://2chsportsnavi.blog.fc2.com/?pc&amp;xml" htmlUrl="http://2chsportsnavi.blog.fc2.com/"/>
         </outline>
         <outline title="2ch" text="2ch">
             <outline text="(*ﾟ∀ﾟ)ゞカガクニュース隊" title="(*ﾟ∀ﾟ)ゞカガクニュース隊"
@@ -169,15 +154,11 @@
                 xmlUrl="http://www.2nn.jp/rss/index.rdf" htmlUrl="http://www.2nn.jp/"/>
             <outline text="BIPブログ" title="BIPブログ" type="rss"
                 xmlUrl="http://bipblog.com/index.rdf" htmlUrl="http://bipblog.com/"/>
-            <outline text="FF35しようずｗｗｗｗｗｗｗｗ" title="FF35しようずｗｗｗｗｗｗｗｗ"
-                type="rss" xmlUrl="http://feeds.feedburner.com/Ff35" htmlUrl="http://finalfantasy35.blog45.fc2.com/"/>
             <outline text="Hatebu.おもしろ" title="Hatebu.おもしろ" type="rss"
                 xmlUrl="http://b.hatena.ne.jp/hotentry/fun.rss" htmlUrl="http://b.hatena.ne.jp/hotentry/fun"/>
             <outline text="RIDE THE WAVE 2ch" title="RIDE THE WAVE 2ch"
                 type="rss"
                 xmlUrl="http://chitekizaisan.blog28.fc2.com/?pc&amp;xml" htmlUrl="http://chitekizaisan.blog28.fc2.com/"/>
-            <outline text="TRTR（・Д・；）" title="TRTR（・Д・；）" type="rss"
-                xmlUrl="http://blog.livedoor.jp/roadtoreality/index.rdf" htmlUrl="http://blog.livedoor.jp/roadtoreality/"/>
             <outline text="VIPPERな俺" title="VIPPERな俺" type="rss"
                 xmlUrl="http://blog.livedoor.jp/news23vip/index.rdf" htmlUrl="http://blog.livedoor.jp/news23vip/"/>
             <outline text="V速ニュップ" title="V速ニュップ" type="rss"
@@ -188,9 +169,6 @@
             <outline text="◆hyukkyyyが見る２ちゃんねる◆"
                 title="◆hyukkyyyが見る２ちゃんねる◆" type="rss"
                 xmlUrl="http://feeds.feedburner.com/fc2/raXb" htmlUrl="http://hyukkyyyy.blog61.fc2.com/"/>
-            <outline text="「質問ある？」スレまとめのまとめ" title="「質問ある？」スレまとめのまとめ"
-                type="rss"
-                xmlUrl="http://shitumon.blog101.fc2.com/?pc&amp;xml" htmlUrl="http://shitumon.blog101.fc2.com/"/>
             <outline text="【2ch】コピペ情報局" title="【2ch】コピペ情報局" type="rss"
                 xmlUrl="http://news.2chblog.jp/index.rdf" htmlUrl="http://news.2chblog.jp/"/>
             <outline text="【2ch】ニュー速クオリティ" title="【2ch】ニュー速クオリティ"
@@ -227,8 +205,6 @@
                 xmlUrl="http://blog.livedoor.jp/goldennews/index.rdf" htmlUrl="http://blog.livedoor.jp/goldennews/"/>
             <outline text="ツンダオワタ情報" title="ツンダオワタ情報" type="rss"
                 xmlUrl="http://tundaowata.com/index.rdf" htmlUrl="http://tundaowata.com/"/>
-            <outline text="ニュース２ちゃんねる" title="ニュース２ちゃんねる" type="rss"
-                xmlUrl="http://news020.blog13.fc2.com/?pc&amp;xml" htmlUrl="http://news020.blog13.fc2.com/"/>
             <outline text="ZiNGER-HOLE" title="ZiNGER-HOLE" type="rss"
                 xmlUrl="http://zinger-hole.net/rss.xml" htmlUrl="http://zinger-hole.net/"/>
             <outline text="ハムスター速報" title="ハムスター速報" type="rss"
@@ -267,8 +243,6 @@
                 xmlUrl="http://blog.livedoor.jp/video_news/index.rdf" htmlUrl="http://blog.livedoor.jp/video_news/"/>
             <outline text="無題のドキュメント" title="無題のドキュメント" type="rss"
                 xmlUrl="http://www.mudainodocument.com/index.rdf" htmlUrl="http://www.mudainodocument.com/"/>
-            <outline text="無駄な知識などない" title="無駄な知識などない" type="rss"
-                xmlUrl="http://mudachishiki.livedoor.biz/index.rdf" htmlUrl="http://mudachishiki.livedoor.biz/"/>
             <outline text="特定しますたm9(｀・ω・´)" title="特定しますたm9(｀・ω・´)"
                 type="rss"
                 xmlUrl="http://www.tokuteishimasuta.com/index.rdf" htmlUrl="http://www.tokuteishimasuta.com/"/>
